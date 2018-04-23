@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualization | Team project - Milestone 1</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+    <link rel="stylesheet" href="/assets/css/dex.css">
+</head>
+<body>
+
+    <div id="header" class="white">
+
+        <div class="pull-left pl-15">
+            <a class="vertically-align white" href="/">
+                <span class="fs-26 fw-300">Visualization</span>
+                <span class="fs-14">| Team project - Milestone 1</span>
+            </a>
+        </div>
+
+        <div class="pull-right ta-right pr-15 vertically-align fw-400 fs-14">
+            <a href="#members" class="pr-15 white">Members</a>
+            <a href="#briefDescription" class="pr-15 white">Brief description</a>
+            <a href="#visPrototype" class="pr-15 white">Visualization prototype</a>
+            <a href="#manual" class="white">Manual</a>
+        </div>
+
+    </div>
+
+    <div id="body" class="clear">
+
+        <div class="clear p-15">
+            <a name="members" class="big-title block pb-15">Members</a>
+            <div class="content">
+                &bull; <b>Frenci Rakipi</b> (f.rakipi@jacobs-university.de)
+                <br />
+                &bull; <b>Fanlin Wang</b> (f.wang@jacobs-university.de)
+
+            </div>
+
+            <a name="briefDescription" class="big-title block pb-15 mt-50">Brief description</a>
+            <div class="content">
+                The prototype below shows via a TreeMap where the 2017 budget of the U.S. <span class="fw-500">Department of
+                Education, Training, Employment, and Social Services</span> went. The budget was $174.6 Billion.
+            </div>
+
+            <a name="visPrototype" class="big-title block pb-10 mt-50">Visualization prototype</a>
+        </div>
+
+        <div id="TreemapParent" class="content"></div>
+
+        <div class="clear p-15">
+
+            <a name="manual" class="big-title block pb-10 mt-50">Manual</a>
+            <div class="content">
+                &bull;
+                <div style="display: inline-block; vertical-align: top;">
+                    Click on one of the boxes to go the next level of budget function.<br/>
+                    Current levels are:<br/>
+                    Budget function -> Budget sub-function -> Federal account -> Program activity
+                </div>
+                <br/><br/>
+                &bull;
+                <div style="display: inline-block; vertical-align: top;">
+                    In order to go to the previous level, click on the blue navigator which is located on top of the
+                    prototype.
+                </div>
+            </div>
+
+            <a name="manual" class="big-title block pb-10 mt-50">What will we add next</a>
+            <div class="content">
+                &bull; Add data for the rest of the functions/programs of the
+                <span class="fw-500">
+                    Department of Education, Training, Employment, and Social Services
+                </span>
+                <br/><br/>
+                &bull; Display the size of the boxes based on the budget
+                <br/><br/>
+                &bull; Add zoom for the TreeMap
+                <br/><br/>
+                &bull; Fix navigation bar. Go to a specific level on click
+                <br/><br/>
+            </div>
+
+            <a name="manual" class="big-title block pb-10 mt-50">References</a>
+            <div class="content">
+                &bull;
+                <div style="display: inline-block; vertical-align: top;">
+                    We used the following library to build the prototype<br/>
+                    <a href="http://blockbuilder.org/PatMartin/112191b94399a5e4172c7d2621b31df5" target="_blank" class="peter-river">
+                        www.blockbuilder.org/PatMartin/112191b94399a5e4172c7d2621b31df5
+                    </a>
+                </div>
+                <br/><br/>
+                &bull;
+                <div style="display: inline-block; vertical-align: top;">
+                    Data for the budget has been downloaded from<br/>
+                    <a href="https://www.usaspending.gov/#/explorer/budget_function" target="_blank" class="peter-river">
+                        www.usaspending.gov/#/explorer/budget_function
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    <div id="footer" class="pt-15 pb-15">
+        &copy; 2018 Visualization project
+    </div>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/dex-bootstrap.js"></script>
+    <script src="/assets/js/underscore-min.js"></script>
+    <script src="/assets/js/dex-libs.js"></script>
+    <script src="/assets/js/dex.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+</body>
+</html>
