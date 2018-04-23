@@ -122,3 +122,11 @@ a {
 #footer {
     text-align: center;
 }
+
+.va-top {
+    vertical-align: top;
+}
+
+.inline-block {
+    display: inline-block;
+}
